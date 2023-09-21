@@ -23,3 +23,43 @@
 .direction:hover{
     background-color: yellowgreen;
 }
+.speech_Billing{color:purple;}
+.speech_Hovstad{color: red;}
+/*Table*/
+.table,th,td {
+    border: 1px solid #22b936;
+    color:rgb(107, 47, 66);
+    border-color:rgb(157, 112, 216);
+    margin:5px;
+    padding:7px;
+    /*margin-bottom: 20px;*/
+    text-align: left;
+  }
+  .tr:nth-child(even) {
+    background-color: rgb(219, 21, 21); /*stripes for odd rows */
+  }
+  .Billing:hover{
+    text-shadow:8px 7px 6px rgb(61, 43, 226);
+    border:solid 3px rgb(61, 43, 226)
+  }
+  .Hovstad:hover{
+     text-shadow:7px 6px 5px rgb(61, 43, 226);
+    border:solid 4px rgb(226, 43, 107)
+  }
+  .navbar{
+    text-align: center;
+    background-color:rgb(96, 121, 126);
+    padding: 10px;
+    width:40%;
+  }
+  .navbar a{
+    color:rgb(58, 226, 43);
+    text-decoration: underline;
+    display: block;
+    padding: 15px;
+  }
+
+.navbar a:hover{
+  background-color: rgb(215, 218, 186);
+  color:rgb(63, 155, 180);
+}
